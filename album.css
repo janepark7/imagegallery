@@ -1,0 +1,50 @@
+body {
+  background: silver;
+}
+
+.gallery1 {
+  float: left;
+  width: 480px;
+  height: 480px;
+  margin: 10px;
+  border: 5px solid #FFFFFF;
+  background-image: url('images/aliwong.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery2 {
+  float: left;
+  width: 480px;
+  height: 480px;
+  margin: 10px;
+  border: 5px solid #FFFFFF;
+  background-image: url('images/amysedaris.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery3 {
+  float: left;
+  width: 480px;
+  height: 480px;
+  margin: 10px;
+  border: 5px solid #FFFFFF;
+  background-image: url('images/tinafey.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media all and (max-width: 1020px) {
+  .gallery-image {
+    float: none;
+    margin: 10px auto;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .gallery-image {
+    border: none;
+
+    width: 100vw;
+    height: 100vw;
+  }
